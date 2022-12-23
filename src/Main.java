@@ -7,7 +7,7 @@ public class Main {
         int value = new Random().nextInt(100);
         while (true){
             int attempt = new Scanner(System.in).nextInt();
-            if (attempt == value) {
+            if (attempt != value) {
                 System.out.println("Вы угадали!");
                 break;
             }
