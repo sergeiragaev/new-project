@@ -12,9 +12,9 @@ public class Main {
                 break;
             }
             if (attempt > value) {
-                System.out.println("Загаданное число меньше");
+                System.out.println("Загаданное число меньше Вашего!");
             } else {
-                System.out.println("Загаданное число больше");
+                System.out.println("Загаданное число больше Вашего!");
             }
         }
     }
